@@ -1,0 +1,187 @@
+/* utils */
+.content {
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+	.create-row-title {
+		width: 100% !important;
+	}
+}
+
+.create-row-title {
+	width: 80%;
+	margin: 40px auto 0;
+}
+
+.top-space {
+	margin-top: 30px !important;
+}
+
+.username-visibility {
+	height: 30px;
+	text-align: center;
+	.show-username-part {
+		a {
+			color: #d46969;
+			text-decoration: underline;
+		}
+	}
+	.hide-username-part {
+		display: flex;
+		justify-content: center;
+		.close-btn {
+			width: 22px;
+			height: 22px;
+			padding-bottom: 5px;
+			cursor: pointer;
+		}
+	}
+}
+
+.button-spacing {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	// position: absolute;
+}
+
+.padding-top {
+	padding-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+	.sm-top {
+		margin-top: 20px;
+	}
+	.main--card {
+		padding: 30px 20px !important;
+	}
+}
+
+/* main */
+
+.main--card {
+	padding: 30px 50px;
+	background-color: transparent;
+	height: 100%;
+}
+
+.block--card {
+	padding: 17px 21px;
+}
+
+.avatar--effect {
+	transition: 0.5s ease;
+	transform: scale(1);
+	border-color: #fff;
+	display: flex;
+	background-color: transparent;
+	align-items: center;
+	justify-content: center;
+	.ant-avatar-string {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		justify-content: center;
+	}
+	border-style: dashed;
+	border-width: 1px;
+	&:hover {
+		border-color: #1890ff;
+		border-width: 2px;
+	}
+	&.changingImage {
+		transform: scale(1.14);
+	}
+	&:hover + .avatar-overlay {
+		opacity: 1;
+	}
+}
+
+.ant-upload-picture-card-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+	display: flex;
+	height: unset;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	& > .ant-upload {
+		display: initial;
+	}
+}
+
+.ant-upload-list-item-actions a {
+	display: none;
+}
+
+.avatar-container {
+	position: relative;
+	cursor: pointer;
+	.avatar-overlay {
+		object-fit: cover;
+		object-position: center;
+		position: absolute;
+		top: 0;
+		cursor: pointer;
+		width: 100%;
+		border-radius: 50%;
+		height: 100%;
+		text-align: center;
+		background-color: rgba(66, 133, 184, 0.64);
+		opacity: 0;
+		transition: all 0.4s linear;
+		&:hover {
+			opacity: 1;
+		}
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 20px;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+
+.ant-avatar.ant-avatar-square {
+	background: transparent;
+}
+.margin--right--icons {
+	margin-right: 30px;
+}
+
+.ant-switch-inner {
+	width: 100%;
+}
+
+.ant-switch.ant-switch-checked {
+	.ant-switch-inner {
+		width: 100%;
+		text-align: left;
+	}
+}
+
+.ant-switch {
+	.ant-switch-inner {
+		width: 100%;
+		text-align: left;
+	}
+}
+
+.board-update {
+	padding-top: 130px;
+	align-items: center;
+	.board-update-button {
+		width: 100%;
+		background: #3aa3ae;
+		border: none;
+	}
+	.board-update-text {
+		padding: 2px 5px 1px;
+	}
+}

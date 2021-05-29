@@ -1,0 +1,34 @@
+.linkup-icon {
+	width: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.other {
+	width: 100%;
+	height: 35px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.textButton {
+	text-decoration: underline;
+	padding-top: 15px;
+}
+
+.or {
+	margin-top: 25px !important;
+	margin-bottom: 25px !important;
+	text-align: center !important;
+}
+
+.order-checkbox {
+	margin-top: 20px;
+}
+
+.main--nav.signup-finish .left-part,
+.main--nav.signup-finish .right-part{
+	background-color: transparent !important;
+}

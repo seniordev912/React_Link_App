@@ -1,0 +1,36 @@
+.textButton {
+	text-decoration: underline;
+	padding-top: 15px;
+}
+
+.linkup-icon {
+	width: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.other {
+	width: 100%;
+	height: 35px;
+}
+
+.or {
+	margin-top: 25px !important;
+	margin-bottom: 25px !important;
+	text-align: center !important;
+}
+
+.textButton {
+	border: none;
+	padding: 0 0 0 0;
+}
+
+.errorText {
+	color: #ff0000;
+	margin-top: 10px;
+}
+
+.successText {
+	color: #00ff00;
+	margin-top: 10px;
+}

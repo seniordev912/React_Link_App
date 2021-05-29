@@ -1,0 +1,47 @@
+.color {
+	width: 36px;
+	height: 14px;
+	border-radius: 2px;
+	// transition: all 0.2s linear;
+}
+.swatch {
+	padding: 5px;
+	background: #fff;
+	border-radius: 1px;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+	display: inline-block;
+	cursor: pointer;
+}
+.popover {
+	position: absolute;
+	@media screen and (min-width: 991.81px) {
+		top: -50%;
+		left: -70%;
+	}
+	z-index: 2;
+}
+.showColor {
+	margin-right: 15px;
+	margin-left: 15px;
+	font-size: 24px;
+	cursor: pointer;
+	transition: all 0.4s linear;
+	&.isCreated {
+		&:hover {
+			opacity: 0.6;
+		}
+	}
+}
+.cover {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}
+.row {
+	margin-top: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

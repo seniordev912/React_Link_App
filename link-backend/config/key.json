@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "linkupcard",
+  "private_key_id": "4054e3a9933389e7b8d5c66d9ce9fee4f5dc2401",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9y69Q+PeS02tM\nZdTSjdIjnf/+bsAV1/ELmTkOhCFwD1E00m9wFCi/CM7IMkazON9C6dQ7keyRxIQI\n84x6MF36ZxB+QiIOGW+Vgmd8Ff7jtRaJWff5TLPQbiGIu+j/LCJRS7BcHyqUk2AK\nZXxZFRf+uJXhZfv0477Sdx/U5f3Ob63uBb73ziwucguyCqHQCLR92lFyffmF41BT\nBCodgl8cfC0OzY7Jqv/FDQpplgB8ksMgP4rU7Anz9R9fgEgOhMGkzJY6aQ8lFivZ\niaykfXoZvSw9C715rPDQFf0ceyOIafIitPFNV0ZlLH4Nu6jiBOFbnvQFkQ1gVbol\nCdEPP0bPAgMBAAECggEAWwsRgsCjFhIHxwKUKBpy4rYAnj7nMrM/BEbQaWe1mIko\ndbO6VCO/dgAWHU+MvZ067+C194tk1XnUsmyOBvEbq6nz7fTwXB4Uej4vQQVWG0n7\nURDQ1IxYN1QVDv/A4WL85U1vAInMxa+6YtJS53Koa36FGzXuOodjOpd9NAXNjdAO\nOdW1oh+LJG0Ho6OvBg+6xKTtnVKop3QdeNumnHjIh5XOGf9Uw43drxWVG0y4r6zT\njm5u3L/fJesLUKRasiQYk2YHHGiQcaVJipCRiyOVoLyXiqO9o/o/Pllo9a+FpvX+\nc3BLYDZMviOQqjFgERhiDWURXVT7tyHaHb/6OW4ihQKBgQDfrNIJifHM3p5+B7K/\nm14wTRjDezwHADUPBWSEVOfBRlb4jxgjG9O+Cosx08TD4/htYSM2VWpSvu/uxnDf\n3ErKulK4+WnJ8NDVUj32abEmV2LjYaqwnAl4ERuM+neYVFK0u3B27/x/eb1krfBG\nuiw8E6eDNuU75HZgR9l8VzFXvQKBgQDZOXI4RC/WXFhVvKeTPFGNzvvdkCFxtouk\nraJjVJwffh+Wv1oY5IugGY1B0OB6CXVkRp7qSBIDUIri13KOHmyLOydCmpxp7p7l\nDhaY6aWKCvaZGxB2pLX1eDq6y+qjqFAExLVCB8XX6jbNmJnHAS7cJK1ig0mK24Nb\nHw3HoKkLewKBgGE99SKIgkMbFbSdDC0ZEt3U5ss1rGcuw+J/6a9OamMwfWcabtf0\npR2d394NvyGa3spOzMw2Xj8TG6SnSTNJxopUbtpUNJXCyEe1tZKHaKjOnQNV1qtp\nawR0C5JC4fOr1TkVtFNBCnkxKBG5PRjCn7COquj02LwtGvnIwti334/RAoGAWqR4\n//ecCpPgHG6rcmniEg2D1dF10zB8FsyJjW9Z8l47qjjQzMBZbwYahpM1iFb4EE7T\nsyk9svph6gRC/gC+BF87o7RGfoGe9i+pyEb+15p5iivb89YJQ5PW1emPUJlEQqke\nhZ4etVk7YxFBYeQhfKUlYI0uG+47YsOTiXCF+Y8CgYA5iZo3R4ontfkimfUv3Leq\nqETUUsYDU5XElmFVw7HxANyqsXVEINH25syVquCkNd4o8hvJMzesUMi8apEbhUy2\nuyXUxmH+fGUAZchICOHaiL5YLem4q2QLJ/1nE6kBdJ6D1N5LvWIGvH1P/w/wKKh4\n/RWmLRPNvfKQct5xI7b/8g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "noreply-emails@linkupcard.iam.gserviceaccount.com",
+  "client_id": "109942164229076345434",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/noreply-emails%40linkupcard.iam.gserviceaccount.com"
+}

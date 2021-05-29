@@ -1,0 +1,59 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+#components-layout-demo-custom-trigger .trigger:hover {
+color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+height: 32px;
+background: rgba(255, 255, 255, 0.3);
+margin: 16px;
+}
+
+.site-layout .site-layout-background {
+background: #fff;
+}
+
+.ant-layout-sider {
+    background: #f2f2f2;
+}
+
+.site-layout {
+    position: relative;
+    .sidebar-toggle {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        z-index: 1;
+    }
+}
+
+.sidebar-board {
+    padding: 17px 24px;
+}
+
+.main-section {
+    height: 100%;
+    .wrap-section {
+        height: 100%;
+    }
+}
+
+.board-update {
+	padding-top: 130px;
+	align-items: center;
+	.board-update-button {
+		width: 100%;
+		background: #3aa3ae;
+		border: none;
+	}
+	.board-update-text {
+		padding: 2px 5px 1px;
+	}
+}

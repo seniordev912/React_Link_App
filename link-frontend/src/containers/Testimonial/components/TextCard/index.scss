@@ -1,0 +1,56 @@
+.textcard {
+    position: relative;
+    box-shadow: 8px 0px 18px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.textcard-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.textcard-text {
+    position: relative;
+    padding: 28px 44px;
+}
+
+.quote-beak {
+    position: absolute;
+    margin-top: 0px;
+    padding-left: 24px;
+
+}
+
+.quote-text {
+    position: absolute;
+    font-size: 4em;
+    color: #ea4c89;
+    font-weight: 600;
+    left: 1rem;
+    top: 1rem;
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.quote-text-grey {
+    position: absolute;
+    font-size: 3em;
+    color: #00000026;
+    font-weight: 600;
+    left: 1.5rem;
+    top: 1.2rem;
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    .Body-1 {
+        color: #ea4c89;
+        margin-bottom: 0px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,254 @@
+@font-face {
+ font-family: SFProDisplay;
+ src: local(SFProDisplay-Semibold),
+   url(../../assets/font/SFProDisplay-Semibold.woff2) format("woff2"),
+   url(../../assets/font/SFProDisplay-Semibold.woff) format("woff"),
+   url(../../assets/font/SFProDisplay-Semibold.ttf) format("truetype");
+ font-weight: 600;
+ font-style: normal;
+ font-stretch: normal;
+}
+@font-face {
+ font-family: SFProText;
+ src: local(SFProText-Regular),
+   url(../../assets/font/SFProText-Regular.ttf) format("truetype");
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+}
+@font-face {
+ font-family: SFProText;
+ src: local(SFProText-Medium),
+   url(../../assets/font/SFProText-Medium.ttf) format("truetype");
+ font-weight: 500;
+ font-style: normal;
+ font-stretch: normal;
+}
+@font-face {
+ font-family: SFProText;
+ src: local(SFProText-Semibold),
+   url(../../assets/font/SFProText-Semibold.ttf) format("truetype");
+ font-weight: 600;
+ font-style: normal;
+ font-stretch: normal;
+}
+h1 {
+ font-family: SFProDisplay ;
+ font-size: 40px ;
+ font-weight: 600 ;
+ font-stretch: normal ;
+ font-style: normal ;
+ line-height: 1.3 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+h2 {
+ font-family: SFProDisplay ;
+ font-size: 30px ;
+ font-weight: 600 ;
+ font-stretch: normal ;
+ font-style: normal ;
+ line-height: 1.27 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+h3 {
+ font-family: SFProText ;
+ font-stretch: normal ;
+ font-size: 25px ;
+ font-weight: 500 ;
+ font-style: normal ;
+ line-height: 1.29 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+.Btn-1 {
+ font-family: SFProText ;
+ font-size: 17px ;
+ font-weight: 600 ;
+ font-stretch: normal ;
+ font-style: normal ;
+ line-height: 1.29 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+h4 {
+ font-family: SFProText ;
+ font-size: 20px ;
+ font-weight: 400 ;
+ font-stretch: normal ;
+ font-style: normal ;
+ line-height: 1.33 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+h5 {
+  font-family: SFProText ;
+  font-size: 18px ;
+  font-weight: 400 ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.8 ;
+  letter-spacing: normal ;
+  color: #1a051d;
+}
+a {
+  font-family: SFProText ;
+  font-size: 15px ;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.33 ;
+  letter-spacing: normal ;
+  color: #1a051d;
+}
+p {
+  font-family: SFProText ;
+  font-size: 15px ;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1 ;
+  letter-spacing: normal ;
+  color: #1a051d;
+}
+.Body-1 {
+  font-family: SFProText ;
+  font-size: 15px ;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.33 ;
+  letter-spacing: normal ;
+  color: #1a051d;
+}
+th {
+  font-family: SFProText ;
+  font-size: 14px ;
+  font-weight: 500 ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.33 ;
+  letter-spacing: normal ;
+  color: #1a051d;
+}
+.Btn-2 {
+  font-family: SFProText ;
+  font-size: 14px ;
+  font-weight: 500 ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.38 ;
+  letter-spacing: normal ;
+  color: #1a051d;
+}
+.Body-2 {
+  font-family: SFProText ;
+  font-size: 13px ;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.38 ;
+  letter-spacing: normal ;
+  color: #1a051d;
+}
+.Caption-1 {
+ font-family: SFProText ;
+ font-size: 12px ;
+ font-weight: 500 ;
+ font-stretch: normal ;
+ font-style: normal ;
+ line-height: 1.33 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+.Caption-2 {
+ font-family: SFProText ;
+ font-size: 11px ;
+ font-weight: 500 ;
+ font-stretch: normal ;
+ font-style: normal ;
+ line-height: 1.18 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+.Small-Text {
+ font-family: SFProText ;
+ font-size: 11px ;
+ font-weight: normal ;
+ font-stretch: normal ;
+ font-style: normal ;
+ line-height: 1.18 ;
+ letter-spacing: normal ;
+ color: #1a051d;
+}
+
+.page-title-size {
+  font-size: 40px;
+  font-weight: 500;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.78;
+  letter-spacing: 0.4px;
+}
+
+.page-subtitle-size {
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+}
+
+.common-subtitle-size {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+}
+
+.common-text-size {
+  font-size: 15px;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+  line-height: 1.38;
+  letter-spacing: normal ;
+}
+
+.common-text-small-size {
+  font-size: 13px;
+  font-weight: normal ;
+  font-stretch: normal ;
+  font-style: normal ;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-weight-400 {
+  font-weight: 400;
+}
+
+.text-weight-500 {
+  font-weight: 500;
+}
+
+.text-weight-600 {
+  font-weight: 600;
+}
+
+.text-weight-900 {
+  font-weight: 900;
+}
+
+.text-weight-bold {
+  font-weight: bold;
+}

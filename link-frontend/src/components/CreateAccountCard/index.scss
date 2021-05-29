@@ -1,0 +1,61 @@
+.create-account-part {
+	margin-top: 100px;
+	@media screen and (max-width: 992px) {
+		margin-top: 0px;
+	}
+}
+
+.sm-top {
+	margin-top: 90px;
+	@media screen and (max-width: 992px) {
+		margin-top: 0px;
+	}
+}
+
+.card {
+	padding: 50px 30px 50px 30px;
+	margin: 0px 10px;
+	background-color: #212121;
+	.color-blk {
+		color: #fff !important;
+	}
+
+	.ant-card-body {
+		@media screen and (max-width: 992px) {
+			padding: 0px;
+		}
+	}
+}
+
+.dots {
+	position: absolute;
+	top: -25px;
+	right: 30px;
+	z-index: -10;
+}
+
+.sub {
+	font-weight: 800px;
+}
+
+.get-started {
+	float: right;
+	background-color: #3aa3ae;
+	color: #fff;
+	max-width: 200px;
+	height: 50px;
+	border: none;
+	width: 100%;
+}
+
+.get-started:hover {
+	border-color: #3aa3ae !important;
+	color: #3aa3ae;
+}
+
+@media screen and (max-width: 768px) {
+	.get-started {
+		margin-top: 30px;
+		float: left;
+	}
+}

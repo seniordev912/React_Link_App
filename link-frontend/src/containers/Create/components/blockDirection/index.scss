@@ -1,0 +1,14 @@
+.left-direction {
+    display: flex;
+    align-items: center;
+    color: #9fa9ba;
+    font-size: 12px;
+    .icon {
+        font-size: 12px;
+        padding-bottom: 1px;
+    }
+    .text {
+        padding-left: 10px;
+        color: #9fa9ba;
+    }
+}

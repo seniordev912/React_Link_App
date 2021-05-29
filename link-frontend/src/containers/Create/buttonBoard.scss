@@ -1,0 +1,115 @@
+.button-board {
+    .button-title {
+        display: flex;
+        align-items: center;
+        .button-title-head {
+            display: flex;
+            align-items: center;
+            .icon {
+                color: #8269f9;
+            }
+            .text {
+                padding-left: 14px;
+                color: #4a4a4a;
+            }
+        }
+    }
+
+    .button-background-color {
+        .pallet {
+            width: 23px;
+            height: 23px;
+            margin-top: 22px;
+            .popover {
+                position: absolute;
+                z-index: 2;
+                @media screen and (max-width: 1350px) and (min-width: 769px) {
+                    right: 50px;
+                }
+                @media screen and (max-width: 769px) {
+                    right: 10px;
+                }
+            }
+            .cover {
+                position: fixed;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .hex-input {
+            padding-top: 2px;
+        }
+    }
+    .button-text-style {
+        .button-text-style-button-group {
+            width: 230px;
+            display:flex;
+            justify-content: space-between;
+            .button-style-button-regular {
+
+            }
+            .button-style-button-italic {
+                font-style: italic;
+            }
+            .button-style-button-underline {
+                text-decoration: underline;
+            }
+            .button-style-button-bold {
+                font-weight: bold; 
+            }
+        }
+    }
+    .button-border-style {
+        .button-border-color-group {
+            width: 135px;
+            display: flex;
+            justify-content: space-between; 
+        }
+    }
+    .button-image {
+        .button-image-description {
+            color: #9fa9ba;
+        }
+    }
+    .button-position {
+        .button-position-button {
+            color: #3aa3ae;
+            border-color: #3aa3ae;
+            width: 24px;
+            padding: 0px;
+            margin-right: 16px;
+        }
+    }
+    .button-radio-button {
+        font-size: 12px;
+        padding: 1px 3px 0px;
+        border-radius: 3px;
+    }
+    .ant-radio-button-wrapper {
+        background: transparent;
+        border: none;
+    }
+    .ant-radio-button-wrapper:hover {
+        color: #3aa3ae;
+    }
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+        background: #3aa3ae;
+        border-color: #3aa3ae;
+        color: #ffffff;
+    }
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover::before {
+        background-color: transparent;
+    }
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+        background: #3aa3ae;
+        border-color: #3aa3ae   ;
+    }
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+        background-color: transparent;
+    }
+    .ant-radio-button-wrapper:not(:first-child)::before {
+        background-color: transparent;
+    }
+}

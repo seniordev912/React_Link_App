@@ -1,0 +1,57 @@
+.lu-card {
+	border-radius: 7px !important;
+	max-width: 410px;
+	.ant-card-body {
+		padding: 0px;
+	}
+
+	.top-part {
+		display: flex;
+		justify-content: space-between;
+		height: 100px;
+		background-image: url('../../assets/images/card-graphic-top.svg');
+		background-repeat: no-repeat;
+		background-position: center top;
+
+		.linkupIcon {
+			margin: 24px;
+			width: 50px;
+			height: 50px;
+		}
+		.linkupNFCImage {
+			margin: 24px;
+			width: 25px;
+			height: 25px;
+		}
+		@media screen and (max-width: 767px) {
+			min-height: 90px;
+		}
+	}
+	.bottom-part {
+		background-image: url('../../assets/images/card-graphic-bottom-left.png');
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		background-size: 50px 50px;
+		height: 130px;
+		position: relative;
+		.linkupBLeftName {
+			font-family: 'Andale Mono';
+			position: absolute;
+			left: 20px;
+			bottom: 30px;
+		}
+		.linkupQRCode {
+			float: right;
+			margin: 50px 30px 30px 0;
+			width: 50px !important;
+			height: 50px !important;
+		}
+
+		@media screen and (max-width: 767px) {
+			min-height: 90px;
+			.linkupQRCode {
+				margin: 25px 15px 15px 0;
+			}
+		}
+	}
+}

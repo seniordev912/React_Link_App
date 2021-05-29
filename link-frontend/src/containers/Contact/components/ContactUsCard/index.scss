@@ -1,0 +1,84 @@
+.contact-us-card-container {
+    background-color: #3aa3ae;
+
+    .contact-us-card-body {
+        max-width: 1350px;
+        padding: 40px 25px;
+        margin: 0px auto;
+        display: flex;
+        
+        @media screen and (max-width: 992px) {
+                display: block;
+        }
+
+        .contact-us-card-text {
+            padding-right: 24px;
+            @media screen and (max-width: 992px) {
+                padding-right: 0px;
+        }
+        }
+
+        .contact-us-card-title {
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .contact-us-card-form-container {
+            position: relative;
+            min-width: 600px;
+            @media screen and (max-width: 992px) {
+                min-width: 0px;
+            }
+        }
+
+        .contact-us-card-form {
+            min-width: 600px;
+            border-radius: 10px;
+            position: absolute;
+
+            @media screen and (max-width: 992px) {
+                position: relative;
+                margin-top: 36px;
+                min-width: 0px;
+            }
+
+            .ant-form-item {
+                padding: 0px 5px;
+            }
+
+            .ant-input-number {
+                width: 100%;
+            }
+
+            .ant-form-item textarea.ant-input {
+                height: 90px;
+            }
+
+            .contact-us-card-submit-button {
+                width: 100%;
+                font-size: 16px;
+                height: 45px;
+                background: #007AFE;
+                border-color: #007AFE;
+                border-radius: 3px;
+            }
+        }
+
+        .contact-us-card-content {
+            display: flex;
+            align-items: center;
+            padding: 8px 0px;
+
+            .contact-us-card-checkicon {
+                padding-right: 15px;
+                margin-top: -3px;
+                color: #FFF;
+            }
+
+            .Body-1 {
+                color: #FFF;
+            }
+        }
+    }
+}
+

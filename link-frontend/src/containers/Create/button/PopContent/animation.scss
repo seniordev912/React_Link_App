@@ -1,0 +1,19 @@
+.ant-popover-inner-content {
+	.ant-radio-inner {
+		border-radius: 4px;
+		&::after {
+			border-radius: 2px;
+		}
+	}
+	.ant-radio-checked {
+		.ant-radio-inner {
+			&::after {
+				-webkit-transform: scale(1.2);
+				transform: scale(1.2);
+				opacity: 1;
+				-webkit-transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+				transition: all 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);
+			}
+		}
+	}
+}

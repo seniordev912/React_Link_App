@@ -1,0 +1,53 @@
+.video-player-modal {
+    width: 100% !important;
+    height: 100%;
+    transform: none;
+    padding: 0 !important;
+    top: 0px;
+    background-color: #00000001;
+    position: relative;
+    .ant-modal-content {
+        width: 100%;
+        height: 100%;
+        background-color: #00000001;
+        box-shadow: none;
+    }
+    .ant-modal-body {
+        background-color: #00000001;
+        padding: 0;
+        box-shadow: none;
+    }
+    
+    .video-player-container {
+        width: 100%;
+        background-color: #00000001;
+        .button-group {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            div {
+                svg {
+                    fill: white;
+                    width: 20px;
+                    height: 20px;
+                }
+                .modal-close-btn, .modal-mute-btn {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    background-color: rgba(22,24,35,0.34);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .video-player {
+            position: absolute;
+            height: 100% !important;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}

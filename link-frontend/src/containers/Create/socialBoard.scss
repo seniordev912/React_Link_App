@@ -1,0 +1,37 @@
+.social-board {
+    .social-title {
+        display: flex;
+        align-items: center;
+        .social-title-head {
+            display: flex;
+            align-items: center;
+            .icon {
+                color: #3aa3ae;
+            }
+            .text {
+                padding-left: 14px;
+                color: #4a4a4a;
+            }
+        }
+    }
+    .social-icon-link {
+        justify-content: space-between;
+    }
+    .social-add-delete {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .social-delete {
+            color: #ff0000;
+        }
+    }
+    .social-position {
+        .social-position-button {
+            color: #3aa3ae;
+            border-color: #3aa3ae;
+            width: 24px;
+            padding: 0px;
+            margin-right: 16px;
+        }
+    }
+}

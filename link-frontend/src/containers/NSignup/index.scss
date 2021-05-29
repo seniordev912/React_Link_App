@@ -1,0 +1,303 @@
+.card-main-container {
+	@media screen and (max-width: 991px) {
+		.main--nav {
+			.right-part {
+				background-color: #d6eff1;
+			}
+		}
+	}
+	.main--nav {
+		max-width: 100% !important;
+		padding: 0px;
+		.ant-row {
+			.left-part {
+				padding: 30px 15px;
+				background-color: #d6eff1;
+			}
+			.right-part {
+				padding: 30px 15px;
+			}
+		}
+	}
+	.step-container {
+		.s-left-part {
+			.top-part {
+				height: calc(100vh - 110px);
+				background-image: url('../../assets/images/left-side-bg.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				position: relative;
+				.comment {
+					color: white;
+					margin: 0 50px;
+					bottom: 80px;
+					position: absolute;
+					.comment-title {
+						font-size: 20px;
+						font-weight: 500;
+						margin-bottom: 10px;
+					}
+					.comment-text {
+						font-size: 14px;
+					}
+
+					@media screen and (max-width: 991px) {
+						margin: 0 20px;
+					}
+				}
+			}
+		}
+		.s-right-part {
+			height: calc(100vh - 110px);
+			overflow-y: auto;
+			.step-input-form {
+				margin-top: 150px;
+				margin-left: auto !important;
+				margin-right: auto !important;
+				max-width: 460px;
+				// height: calc(100vh - 135px);
+				.header {
+					margin-bottom: 50px;
+					.title {
+						font-size: 25px;
+						font-weight: 500;
+						margin-bottom: 10px;
+					}
+					.desc {
+						font-size: 14px;
+						font-weight: 500;
+					}
+				}
+				.ship-comment {
+					margin-bottom: 20px;
+				}
+				.calc-part {
+					margin-bottom: 20px;
+					.sub-calc-old-price-part {
+						display: flex;
+						justify-content: space-between;
+						margin-top: 5px;
+						.value {
+							color: red;
+							text-decoration: line-through;
+							font-size: 12px;
+						}
+					}
+					.sub-calc-part,
+					.total-calc-part {
+						display: flex;
+						justify-content: space-between;
+						margin-bottom: 20px;
+					}
+					.total-calc-part {
+						margin-bottom: 10px;
+					}
+				}
+				.card-img-part {
+					display: flex;
+					justify-content: space-around;
+					img {
+						display: flex;
+						align-items: center;
+						@media screen and (max-width: 575px) {
+							float: left;
+						}
+						height: 25px !important;
+						margin: 20px auto;
+					}
+					.ant-col:first-of-type{
+						img {
+							float: left;
+						}
+					}
+					.ant-col:last-of-type{
+						img {
+							float: right;
+						}
+					}
+				}
+				.notify-part {
+					background-color: #4a90e2;
+					color: white;
+					font-size: 12px;
+					padding: 10px 20px;
+					margin: 10px 0 20px 0;
+				}
+				.card-num-input,
+				.exp-date-input,
+				.card-cvc-input {
+					margin: 0px;
+				}
+				.result-msg-part {
+					height: 15px;
+					margin-bottom: 20px;
+					display: none;
+					.success-msg {
+						color: #108ee9;
+					}
+					.error-msg {
+						color: #f50;
+					}
+				}
+				.form-inputs {
+					padding: 10px 0;
+				}
+				.prev-button {
+					float: right;
+					width: 150px;
+					background-color: transparent;
+					border-color: #3aa3ae;
+					color: #3aa3ae;
+					margin-right: 10px;
+				}
+				.confirm-button {
+					float: right;
+					width: 150px;
+					background-color: #3aa3ae;
+					border-color: #3aa3ae;
+					color: white;
+					i {
+						font-size: 17px;
+						margin-right: 5px;
+					}
+					@media screen and (max-width: 991px) {
+						margin-bottom: 100px;
+					}
+				}
+				.bottom-comment {
+					color: #3aa3ae;
+					text-align: right;
+				}
+				.card-name-part {
+					// margin-top: 20px;
+				}
+				.shipping-checkbox {
+					margin-bottom: 20px;
+				}
+				.button-group {
+					padding-bottom: 155px;
+				}
+				@media screen and (max-width: 991px) {
+					padding: 20px !important;
+					.input-exp {
+						margin-bottom: 20px;
+					}
+				}
+			}
+
+			.skip-step-part {
+				margin-top: 50px;
+				margin-left: auto !important;
+				margin-right: auto !important;
+				padding: 20px 20px 120px 20px;
+				max-width: 460px;
+				a {
+					float: right;
+				}
+
+				@media screen and (max-width: 991px) {
+					margin-top: 30px 0 0 0;
+				}
+			}
+
+			@media screen and (max-width: 991px) {
+				height: auto;
+			}
+		}
+
+		.finish-part {
+			width: 100%;
+			.top-back-part {
+				width: 100%;
+				height: 40vh;
+				background-color: #d6eff1;
+				background-image: url('../../assets/images/finished.png');
+				background-size: contain;
+				background-position: center;
+				background-repeat: no-repeat;
+				border-bottom-right-radius: 150px;
+				margin-bottom: 200px;
+				@media screen and (max-width: 991px) {
+					border-bottom-right-radius: 0px;
+				}
+			}
+			.main-card-part {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				max-width: 400px;
+				.card {
+					width: 100%;
+					height: 230px;
+					background-color: white;
+					border-radius: 10px;
+					position: relative;
+
+					.code-qr {
+						position: absolute;
+						right: 30px;
+						bottom: 30px;
+						canvas {
+							width: 50px !important;
+							height: 50px !important;
+						}
+					}
+				}
+				.comment {
+					width: 100%;
+					margin-top: 20px;
+				}
+				@media screen and (max-width: 991px) {
+					max-width: 350px;
+					min-width: 350px;
+					.card {
+						height: 200px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1350px) {
+	body {
+		padding: 0px !important;
+	}
+}
+
+input,
+.StripeElement {
+	display: block;
+	margin: 10px 0 20px 0;
+	max-width: 500px;
+	padding: 10px 14px;
+	font-size: 1em;
+	font-family: 'Source Code Pro', monospace;
+	// box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+	//     rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+	border: 1px solid rgb(217, 217, 217);
+	outline: 0;
+	border-radius: 4px;
+	background: white;
+}
+
+.card-bottom-comment {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+
+	@media screen and (max-width: 991px) {
+		position: relative !important;
+	}
+}
+
+.card-info-comment {
+	color: #888888;
+	font-size: 12px;
+	padding: 5px;
+}

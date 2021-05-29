@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1350px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#loader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.element-center {
+	display: flex;
+	justify-content: center;
+}
+
+.margin-center {
+	margin: 0 auto;
+}
+
+.border-radius-3 {
+	border-radius: 3px;
+}
+
+.border-radius-2 {
+	border-radius: 2px;
+}
+
+/* @media screen and (min-width: 1350px) {
+	body {
+		padding-right: 15%;
+		padding-left: 15%;
+	}
+} */

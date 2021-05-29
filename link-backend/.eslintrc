@@ -1,0 +1,66 @@
+{
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"extends": ["eslint-config-airbnb-base", "eslint:recommended", "prettier"],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"plugins": ["import", "node", "prettier"],
+	"rules": {
+		"semi": ["error", "never"],
+		"comma-dangle": ["error", "never"],
+		"arrow-parens": ["error", "as-needed"],
+		"radix": "off",
+		"no-underscore-dangle": "off",
+		"import/no-unresolved": "error",
+		"camelcase": "off",
+		"import/extensions": ["error", "never"],
+		"object-shorthand": "off",
+		"func-names": "off",
+		"class-methods-use-this": "off",
+		"import/no-extraneous-dependencies": "off",
+		"no-unused-vars": "warn",
+		"max-len": [1, 96],
+		"no-extra-parens": "off",
+		"no-case-declarations": "off",
+		"import/prefer-default-export": "off",
+		"no-plusplus": [
+			"error",
+			{
+				"allowForLoopAfterthoughts": true
+			}
+		],
+		"no-tabs": [
+			"error",
+			{
+				"allowIndentationTabs": true
+			}
+		],
+		"indent": [
+			"error",
+			"tab",
+			{
+				"SwitchCase": 1
+			}
+		],
+		"linebreak-style": ["error", "unix"],
+		"no-param-reassign": "off",
+		"consistent-return": "off",
+		"prettier/prettier": "off",
+		"quotes": [
+			"error",
+			"single",
+			{
+				"allowTemplateLiterals": true,
+				"avoidEscape": false
+			}
+		]
+	}
+}

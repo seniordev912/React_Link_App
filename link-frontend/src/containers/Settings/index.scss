@@ -1,0 +1,175 @@
+.container-fluid {
+    .background-header {
+        background-color: #d6eff1;
+    }
+    .container-header {
+        max-width: 1350px;
+        padding: 15px;
+        margin: 0px auto;
+    }
+    .header-part {
+        padding-left: 10px;
+        .title {
+            padding: 10px 0;
+        }
+        .desc {
+            padding-bottom: 53px;
+        }
+    }
+    .ant-layout {
+        max-width: 1350px;
+        padding: 15px;
+        margin: 0px auto;
+        background: #fafafa;
+    }
+    .ant-menu {
+        background: #fafafa;
+    }
+    .site-layout-background {
+        background: #fafafa;
+        // padding-left: 47px;
+    }
+
+    .main-layout {
+        padding: 50px 10px;
+        background: #fafafa;
+        width: 100%;
+    }
+
+    .ant-layout-sider {
+        flex: none !important;
+        max-width: 200px !important;
+        min-width: 120px !important;
+        width: 120px !important;
+    }
+
+    .order-button-container {
+        padding-bottom: 45px;
+    }
+
+    .order-button {
+        background: #3aa3ae;
+        color: #fafafa;
+        padding: 4px 24px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .side-menu {
+        border-right: 0px;
+    }
+
+    .menu-item {
+        padding-left: 0px !important;
+        background-color: #fafafa !important;
+    }
+
+    .ant-menu-item-selected,
+    .ant-menu-item-selected a{
+        color: #3aa3ae;
+        &::after {
+            border-right: 3px solid #3aa3ae;
+        }
+    }
+
+    .ant-menu-item a:hover,
+    .ant-menu-item:hover {
+        color: #3aa3ae;
+    }
+
+    .ant-menu-item:hover {
+        @media screen and (max-width: 500px) {
+            border-bottom: 2px solid #3aa3ae !important;
+        }
+    }
+
+    .pay-share-table {
+        min-width: 300px;
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    .header {
+        display: none
+    }
+
+    .site-layout-content-container {
+        padding: 0px 2px 0px;
+    }
+
+    .site-layout-content {
+        padding-left: 47px;
+        border-left: solid 2px #eeeeee;
+        margin-left: -1px;
+        & .Body-1 {
+            padding: 4px 0px 4px 0px;
+        }
+    }
+
+    .credit-container {
+        padding-top: 20px;
+        & .credit-earning {
+            background-color: #4a90e2;
+            padding: 3px 15px;
+            color: white;
+            border-radius: 3px;
+        }
+    }
+    
+
+    thead[class*="ant-table-thead"] th{
+        background-color: #eeeeee !important;
+      }
+
+    .highlighter {
+        white-space: pre-wrap; /* css-3 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+        background-color: #e0f2f1;
+        padding: 3px 5px;
+        margin: 6px 0px;
+        cursor: pointer;
+    }
+
+    .product-item-tag {
+        color: black;
+        background-color: #d3e8eb;
+        border: none;
+        padding: 3px 5px;
+    }
+    
+    @media screen and (max-width: 500px) {
+        .pay-share-table {
+            overflow-x: scroll;
+            width: 100%;
+            padding-top: 30px;
+        }
+
+        .sidebar {
+            display: none;
+        }
+
+        .header {
+            display: block;
+            background: #fafafa;
+            padding: 0px;
+        }
+
+        .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected {
+            color: #3aa3ae;
+            border-bottom: 2px solid #3aa3ae;
+        }
+
+        .site-layout-background {
+            padding-left: 0px;
+            margin: 0;
+            min-Height: 280;      
+        }
+        .site-layout-content {
+            padding-left: 10px;
+            border-left: none;
+        }
+    }
+}

@@ -1,0 +1,102 @@
+.text-board {
+    .text-title {
+        display: flex;
+        align-items: center;
+        .text-title-head {
+            display: flex;
+            align-items: center;
+            .icon {
+                color: #000000;
+            }
+            .text {
+                padding-left: 14px;
+                color: #4a4a4a;
+            }
+        }
+    }
+    .text-size {
+        .text-size-button-group {
+            width: 150px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .text-style {
+        .text-style-button-group {
+            width: 230px;
+            display:flex;
+            justify-content: space-between;
+            .text-style-button-regular {
+
+            }
+            .text-style-button-italic {
+                font-style: italic;
+            }
+            .text-style-button-underline {
+                text-decoration: underline;
+            }
+            .text-style-button-bold {
+                font-weight: bold; 
+            }
+        }
+    }
+    .text-color {
+        
+    }
+    .text-editor {
+        .text-editor-description {
+            color: #9fa9ba;
+            font-size: 10px;
+            span {
+                text-decoration: underline  ;
+            }
+        }
+        .text-editor-content {
+            width: 100%;
+            height: 420px;
+            background-color: #ffffff;
+            border: 1px solid #5d979e;
+            padding: 14px;
+        }
+    }
+    .text-position {
+        .text-position-button {
+            color: #3aa3ae;
+            border-color: #3aa3ae;
+            width: 24px;
+            padding: 0px;
+            margin-right: 16px;
+        }
+    }
+    .text-radio-button {
+        font-size: 12px;
+        padding: 1px 3px 0px;
+        border-radius: 3px;
+    }
+
+    .ant-radio-button-wrapper {
+        background: transparent;
+        border: none;
+    }
+    .ant-radio-button-wrapper:hover {
+        color: #3aa3ae;
+    }
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+        background: #3aa3ae;
+        border-color: #3aa3ae;
+        color: #ffffff;
+    }
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover::before {
+        background-color: transparent;
+    }
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+        background: #3aa3ae;
+        border-color: #3aa3ae   ;
+    }
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+        background-color: transparent;
+    }
+    .ant-radio-button-wrapper:not(:first-child)::before {
+        background-color: transparent;
+    }
+}

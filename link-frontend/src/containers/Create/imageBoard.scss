@@ -1,0 +1,67 @@
+.image-board {
+    .image-title {
+        display: flex;
+        align-items: center;
+        .image-title-head {
+            display: flex;
+            align-items: center;
+            .icon {
+                color: #3aa3ae;
+            }
+            .text {
+                padding-left: 14px;
+                color: #4a4a4a;
+            }
+        }
+    }
+    .image-size {
+        .image-size-button-group {
+            width: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .image-border {
+        .image-border-button-group {
+            width: 135px;
+            display: flex;
+            justify-content: space-between; 
+        }
+    }
+    .image-image {
+        .text-editor-description {
+            color: #9fa9ba;
+        }
+    }
+    .image-radio-button {
+        font-size: 12px;
+        padding: 1px 3px 0px;
+        border-radius: 3px;
+    }
+
+    .ant-radio-button-wrapper {
+        background: transparent;
+        border: none;
+    }
+    .ant-radio-button-wrapper:hover {
+        color: #3aa3ae;
+    }
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+        background: #3aa3ae;
+        border-color: #3aa3ae;
+        color: #ffffff;
+    }
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover::before {
+        background-color: transparent;
+    }
+    .ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+        background: #3aa3ae;
+        border-color: #3aa3ae   ;
+    }
+    .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+        background-color: transparent;
+    }
+    .ant-radio-button-wrapper:not(:first-child)::before {
+        background-color: transparent;
+    }
+}

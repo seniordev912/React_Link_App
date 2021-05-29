@@ -1,0 +1,103 @@
+.marginTop {
+	margin-top: 15px !important;
+}
+
+.marginTop2 {
+	margin-top: 15px !important;
+}
+
+.email--input--container {
+	padding-right: 10px;
+}
+
+.email--input {
+	height: 40px;
+	width: 350px !important;
+	max-width: 100%;
+}
+
+.check-username-input {
+	height: 40px;
+	padding-right: 60px;
+	padding-left: 118px;
+}
+
+.join {
+	width: 68px;
+	height: 34px;
+	margin-top: 3px;
+	margin-left: -72px;
+	margin-bottom: 0px;
+	background-color: #3aa3ae;
+	color: #fff;
+	border: none;
+}
+
+.join:hover {
+	border-color: #3aa3ae !important;
+	color: #3aa3ae;
+	border: solid 1px;
+}
+
+.join:active {
+	border-color: #3aa3ae !important;
+	color: #3aa3ae;
+	border: solid 1px;
+}
+
+.join:focus {
+	border-color: #3aa3ae !important;
+	color: #3aa3ae;
+	border: solid 1px;
+}
+
+.footer-link {
+	color: #9b9b9b;
+}
+
+.join-container {
+	display: flex;
+}
+
+.join-container .ant-form-item {
+	margin-bottom: 0px;
+}
+
+.join-container .ant-form-item-explain {
+	text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+	.marginTop {
+		text-align: center !important;
+	}
+	.marginTop2 {
+		text-align: center !important;
+		margin-top: 25px !important;
+	}
+	.footer {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.email--input--container {
+		padding-right: 0px;
+	}
+
+	.join-container {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 32px;
+	}
+
+	.logo {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.icon-width {
+	max-width: 60px;
+	position: relative;
+}

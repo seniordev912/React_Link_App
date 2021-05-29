@@ -1,0 +1,98 @@
+.top-part {
+    .top-part-img {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .top-part-title {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+.payment-modal-part {
+    .service-name {
+        margin-bottom: 10px;
+    }
+
+    .service-type {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        .select-part {
+            margin-top: 15px;
+        }
+        .price-display-part {
+            display: flex;
+            h1 {
+                margin: 0px;
+            }
+            span {
+                margin-top: 25px;
+            }
+            vertical-align: bottom;
+        }
+    }
+
+    .service-type-desc {
+        margin-bottom: 20px;
+    }
+
+    .payment-part {
+        .StripeElement {
+            display: block;
+            margin: 10px 0 2px 0;
+            // max-width: 500px;
+            padding: 15px 14px;
+            font-family: 'Source Code Pro', monospace;
+            // box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+            //     rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+            border: 1px solid rgb(217, 217, 217);
+            outline: 0;
+            border-radius: 4px;
+            background: transparent;
+            font-size: 15px;
+            height: 50px;
+            @media screen and (max-width: 991px) {
+                padding: 12px 10px;
+                font-size: 16px;
+                height: 40px;
+            }
+        }
+        margin-bottom: 12px;
+    }
+    .save-credit-part {
+        margin-bottom: 40px;
+        .checkbox-save-credit {
+            margin-right: 10px;
+        }
+        .label-checkbox-credit {
+            margin-right: 5px;
+            cursor: pointer;
+        }
+        .open-stripe-link {
+            cursor: pointer;
+        }
+    }
+    .question-text {
+        .mail-to-part {
+            margin-left: 3px;
+        }
+    }
+    .service-submit {
+        .payment-btn {
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            i {
+                font-size: 15px;
+                margin-right: 5px;
+            }
+        }
+    }
+}

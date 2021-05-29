@@ -1,0 +1,47 @@
+.setting-button {
+    padding: 0px;
+    float: right;
+    border: none;
+    background: transparent;
+    &.ant-btn:hover, &.ant-btn:focus, &.ant-btn:active {
+        background: transparent;
+    }
+    &.ant-btn:hover, &.ant-btn:focus {
+        color: #3aa3ae;
+    }
+}
+
+.setting-button::after {
+    display: none;
+}
+.setting-icon {
+    float: right;
+}
+
+.uploadButton {
+    width: 130px;
+    .uploadIcon {
+        color: #3aa3ae;
+    }
+    &.ant-btn-dashed:hover, &.ant-btn-dashed:focus {
+        border-color: #3aa3ae;
+    }
+    &.ant-btn:hover, &.ant-btn:focus, &.ant-btn:active{
+        color: #3aa3ae;
+        background: transparent;
+    }
+}
+
+.board-horizon-line {
+	width: 100%;
+	height: 2px;
+	border: solid 0.5px #e2e2e2;
+}
+
+.board-margin-top {
+    margin-top: 8px;
+}
+
+.board-padding-top {
+    padding-top: 28px;
+}

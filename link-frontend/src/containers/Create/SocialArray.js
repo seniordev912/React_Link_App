@@ -1,0 +1,26 @@
+const SocialArray = [
+ 'Facebook',
+ 'Instagram',
+ 'Linkedin',
+ 'Snapchat',
+ 'Spotify',
+ 'Twitter',
+ 'YouTube',
+ 'Blogger',
+ 'TikTok',
+ 'Twitch',
+ 'Github',
+ 'Dribbble',
+ 'Yelp',
+ 'Amazon',
+ 'Discord',
+ 'Ebay',
+ 'Etsy',
+ 'Messenger',
+ 'Reddit',
+ 'SoundCloud',
+ 'Whatsapp',
+ 'Airbnb',
+]
+
+export default SocialArray

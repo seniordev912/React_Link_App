@@ -1,0 +1,185 @@
+.container {
+    @media screen and (max-width: 900px) {
+        padding: 0;
+    }
+}
+
+.pricing-page-container {
+    padding: 20px;
+    @media screen and (max-width: 900px) {
+        padding: 0;
+    }
+
+    .page-subtitle {
+        margin-bottom: 20px;
+        .title-tag{
+            padding: 0 5px;
+            margin: 0 5px;
+        }
+    }
+
+    .subscript-manage-part {
+        margin-bottom: 57px;
+        border: 1px solid #9fa9ba;
+        border-radius: 4px;
+        padding: 20px;
+        .s-title {
+            margin-bottom: 10px;
+        }
+        .s-desc {
+            margin-bottom: 36px;
+        }
+        .s-button {
+            margin-bottom: 8px;
+        }
+    }
+
+    .upgarde-to-pro-part {
+        .upgrade-title {
+            margin-bottom: 10px;
+            .title-tag {
+                padding: 0 5px;
+                margin: 0 5px;
+            }
+        }
+        .upgrade-desc {
+            margin-bottom: 40px;
+        }
+    }
+
+    .plan-switch-period-part {
+        width: 320px;
+        height: 48px;
+        position: relative;
+        margin: 0 auto 45px auto;
+        .save-image {
+            position: absolute;
+            width: 100px;
+            z-index: 100;
+            right: 0px;
+        }
+        .plan-switch-period {
+            border-radius: 5px;
+            position: absolute;
+            transform: translateX(50%);
+            bottom: 0px;
+            .item {
+                border-color: #3aa3ae;
+            }
+            .item-first {
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+            }
+            .item-last {
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+            .ant-radio-button-wrapper:hover {
+                color: #3aa3ae;
+            }
+            .ant-radio-button-wrapper-checked:hover {
+                color:white;
+            }
+            .ant-radio-button-wrapper-checked,
+            .ant-radio-button-wrapper-checked::before {
+                background-color: #3aa3ae !important;
+            }
+        }
+    }
+
+    .plan-cards {
+        margin: 0 10px 45px 10px !important;
+        @media screen and (max-width: 900px) {
+            width: 100%;
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+        }
+        .plan-card-part {
+            margin-bottom: 20px !important;
+            .plan-card--part {
+                padding: 15px;
+                border-radius: 20px;
+                .selected-part {
+                    margin-top: 24px;
+                    text-align: center;
+                    .check-img {
+                        margin-left: 10px;
+                        background-color: white;
+                        border-top-left-radius: 5px;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        padding: 3px;
+                        svg {
+                            width: 12px;
+                            height: 12px;
+                            fill: #8f98a8;
+                        }
+                    }
+                }
+            }
+            .plan-card {
+                border: none;
+                border-radius: 20px;
+                .ant-card-body {
+                    padding: 25px 40px;
+                    @media screen and (max-width: 900px) {
+                        padding: 25px 20px;
+                    }
+                }
+                .title {
+                    margin-bottom: 15px;
+                    letter-spacing: 0.2px;
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+                .description {
+                    margin-bottom: 40px;
+                    letter-spacing: 0.12px;
+                    font-weight: 500;
+                }
+                .service-list {
+                    height: 300px;
+                    .service-item {
+                        font-size: 13px;
+                        display: flex;
+                        align-items: center;
+                        margin: 10px 0;
+                        padding: 7px 5px;
+                        .checkbox {
+                            fill: #3aa3ae;
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 15px;
+                        }
+                    }
+                }
+                .decision-btn {
+                    width: 100%;
+                    height: 50px;
+                    background-color: #fafafa;
+                    border: none;
+                    border-radius: 12px;
+                    color: #253858;
+                    font-size: 15px;
+                    letter-spacing: 0.16px;
+                }
+
+                .saving-money {
+                    color: #9fa9ba;
+                    margin-top: 10px;
+                    font-style: italic;
+                    min-height: 20px;
+                }
+            }
+        }
+    }
+
+    .contact-question {
+        font-size: 20px;
+        .link {
+            cursor: pointer;
+            margin-left: 5px;
+            font-size: 20px;
+        }
+    }
+}

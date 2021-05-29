@@ -1,0 +1,25 @@
+.cardgrid {
+    column-count: 3;
+    max-width: 1360px;
+    margin: 0px auto;
+    @media screen and (max-width: 992px) {
+		column-count: 2;
+	}
+    @media screen and (max-width: 576px) {
+		column-count: 1;
+	}
+}
+
+.cardContainer {
+    break-inside: avoid;
+    display: inline-block;
+    padding: 30px;
+    width: 100%;
+}
+
+.videoTesti {
+	text-align: center;
+	display: block;
+    margin: 0 auto;
+    padding: 30px;
+}

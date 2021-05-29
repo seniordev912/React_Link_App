@@ -1,0 +1,111 @@
+Content {
+	margin-top: 30px !important;
+}
+
+.title-font {
+	font-weight: 400 !important;
+}
+
+.top-space {
+	margin-top: 30px !important;
+}
+
+.card-border {
+	border-style: solid !important;
+}
+
+.v-middle {
+	position: relative;
+	top: 30px;
+	text-align: center;
+}
+
+.ant-statistic-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.graph-show-title {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title-part {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sm-top-price {
+	font-size: 25px;
+	color: #3aa3ae;
+}
+
+.empty-v-middle {
+	position: relative;
+	top: 70px;
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	.sm-top {
+		margin-top: 20px;
+	}
+	.outline--none {
+		display: none;
+	}
+}
+
+.counter {
+	color: #3aa3ae;
+}
+
+.highlighter {
+	white-space: pre-wrap; /* css-3 */
+	white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+	white-space: -pre-wrap; /* Opera 4-6 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* Internet Explorer 5.5+ */
+	background-color: #e0f2f1;
+	padding: 3px 5px;
+	margin: 6px 0px;
+	cursor: pointer;
+}
+
+.ant-card-body {
+	background-color: #fff;
+}
+
+.recharts-legend-wrapper {
+	padding-top: 20px;
+	bottom: 0px !important;
+}
+
+.pay-share-modal {
+	width: 700px !important;
+}
+
+.pay-share-table {
+	min-width: 300px;
+}
+
+@media screen and (max-width: 500px) {
+	.pay-share-table {
+		overflow-x: scroll;
+	}
+}
+
+.export-menu {
+	border: 1px solid rgb(240, 240, 240);
+}
+
+.export-menu .ant-menu-item {
+	border-bottom: 1px solid rgb(240, 240, 240);
+	margin: 0;
+}
+
+.ant-pagination-item {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}

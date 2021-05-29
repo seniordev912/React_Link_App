@@ -1,0 +1,51 @@
+.video-gallery-list {
+    margin-top: 2px;
+    display: flex;
+
+    .item-column {
+        position: relative;
+        margin: 2px;
+        .item-thumbnail {
+            width: 100%;
+            height: 100%;
+        }
+        .item-img-part {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .item-play-btn {
+            position: absolute;
+            display: block;
+            background: url('../../assets/icons/ic-video-play.png');
+            height: 70px;
+            width: 70px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            background-size: cover;
+            cursor: pointer;
+        }
+    
+        .item-video-part {
+            display: none;
+        }
+    }
+    .item-column.self-play {
+        .item-img-part {
+            display: none;
+        }
+        .item-video-part {
+            width: 100%;
+            height: 100%;
+            display: block;
+            
+            .item-video, video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.footer {
+	padding-top: 60px;
+	@media screen and (max-width: 768px) {
+		padding-top: 30px;
+	}
+	padding-bottom: 20px;
+}
+
+a {
+	color: #3aa3ae;
+}
+
+.heart {
+	width: 10px;
+}
+
+.errorText {
+	color: red;
+}
+
+.successText {
+	color: green;
+}

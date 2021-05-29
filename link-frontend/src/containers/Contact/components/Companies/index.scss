@@ -1,0 +1,39 @@
+.companies {
+    max-width: 1350px;
+    padding: 40px 25px;
+    margin: 25px auto;
+
+    .companies-container {
+        margin-right: 600px;
+        padding-right: 24px;
+        
+        @media screen and (max-width: 992px) {
+            margin-right: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    .companies-title-contact {
+        color: #9fa9ba;
+        margin-bottom: 36px;
+        text-align: left;
+        @media screen and (max-width: 992px) {
+            text-align: center !important;
+        }
+    }
+
+    .companies-icon-container{
+        display: flex;
+        align-items: center;
+    }
+
+    .companies-icon {
+        height: auto;
+        padding: 0px 62px 30px 0px;
+        width: 100%;
+        height: auto;
+        @media screen and (max-width: 992px) {
+            padding: 30px;
+        }
+    }
+}
